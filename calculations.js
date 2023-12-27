@@ -1,11 +1,11 @@
 function increaseBalance(x, y) {
   x += y;
-  return x;
+  return --x;
 }
 
 function decreaseBalance(x, y) {
   x -= y;
-  return x;
+  return ++x;
 }
 
 function divideBalanceByAccounts(x, y) {
